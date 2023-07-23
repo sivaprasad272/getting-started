@@ -8,8 +8,7 @@ pipeline {
         DOCKER_IMAGE_TAG = "latest-${env.BUILD_NUMBER}"
         GIT_URL = 'https://github.com/sivaprasad272/getting-started.git'
         DOCKER_CONTAINER_NAME='TO-DO-APP'
-    }
-    
+    }    
     stages {
          stage('Cloning Git Code') {
             steps {
